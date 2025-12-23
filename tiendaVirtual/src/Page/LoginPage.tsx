@@ -7,10 +7,15 @@ import { validateLogin } from "../Utils/validationslogin";
 import type IFormLoginState from "../interfaces/ILogin";
 import type { Credenciales } from "../interfaces/ILogin";
 import Loginservice from "../service/Loginservice";
+import localStorage from "../AUTH/Auth"
+import { useContext } from "react";
+import { AuthContext } from "../interfaces/ContextAuth";
 
 const service = new Loginservice();
 function Login() {
   const navigate = useNavigate();
+  const {setIsLogged} =useContext(AuthContext);
+
   const [formLogin, setformLogin] = useState<IFormLoginState>({
     user: "",
     password: "",
@@ -46,6 +51,10 @@ function Login() {
 
       if (result.ok) {
         toast.success(result.data.message);
+        localStorage.savetoken(result.data.token!);
+        console.log(result.data.token)
+        setIsLogged(true);
+        navigate("/productos");
       } else {
         toast.error(result.data.message);
       }

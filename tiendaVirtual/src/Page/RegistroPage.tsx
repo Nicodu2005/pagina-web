@@ -64,7 +64,7 @@ function Registro() {
 
     if (response.ok) {
       toast.success(response.data.message);
-      navigate("./Login")
+      navigate("/Login")
     } else {
       toast.error(response.data.message);
     }

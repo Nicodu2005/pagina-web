@@ -1,0 +1,87 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.2
+2 info using node@v24.11.1
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Juan David\TiendaVirtual\.npmrc
+5 silly config load:file:C:\Users\Juan David\.npmrc
+6 silly config load:file:C:\Users\Juan David\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install react-router-dom
+8 verbose argv "install" "react-router-dom"
+9 verbose logfile logs-max:10 dir:C:\Users\Juan David\TiendaVirtual\%USERPROFILE%\AppData\Local\npm-cache\_logs\2025-12-22T15_52_52_852Z-
+10 verbose logfile C:\Users\Juan David\TiendaVirtual\%USERPROFILE%\AppData\Local\npm-cache\_logs\2025-12-22T15_52_52_852Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+13 silly idealTree buildDeps
+14 silly fetch manifest react-router-dom@^7.10.1
+15 silly packumentCache full:https://registry.npmjs.org/react-router-dom cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/npm 758ms
+17 http fetch GET 200 https://registry.npmjs.org/react-router-dom 745ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/react-router-dom set size:undefined disposed:false
+19 silly fetch manifest react@>=18
+20 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/react 239ms (cache miss)
+22 silly packumentCache full:https://registry.npmjs.org/react set size:undefined disposed:false
+23 silly fetch manifest react-dom@>=18
+24 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/react-dom 241ms (cache miss)
+26 silly packumentCache full:https://registry.npmjs.org/react-dom set size:undefined disposed:false
+27 silly placeDep ROOT react-router-dom@7.11.0 REPLACE for:  want: ^7.10.1
+28 silly fetch manifest react-router@7.11.0
+29 silly packumentCache full:https://registry.npmjs.org/react-router cache-miss
+30 http fetch GET 200 https://registry.npmjs.org/react-router 142ms (cache miss)
+31 silly packumentCache full:https://registry.npmjs.org/react-router set size:undefined disposed:false
+32 silly placeDep ROOT react-router@7.11.0 OK for: react-router-dom@7.11.0 want: 7.11.0
+33 silly fetch manifest cookie@^1.0.1
+34 silly packumentCache full:https://registry.npmjs.org/cookie cache-miss
+35 silly fetch manifest set-cookie-parser@^2.6.0
+36 silly packumentCache full:https://registry.npmjs.org/set-cookie-parser cache-miss
+37 http fetch GET 200 https://registry.npmjs.org/set-cookie-parser 92ms (cache miss)
+38 silly packumentCache full:https://registry.npmjs.org/set-cookie-parser set size:undefined disposed:false
+39 http fetch GET 200 https://registry.npmjs.org/cookie 94ms (cache miss)
+40 silly packumentCache full:https://registry.npmjs.org/cookie set size:undefined disposed:false
+41 silly placeDep ROOT cookie@1.1.1 OK for: react-router@7.11.0 want: ^1.0.1
+42 silly placeDep ROOT set-cookie-parser@2.7.2 OK for: react-router@7.11.0 want: ^2.6.0
+43 silly reify mark retired [ 'C:\\Users\\Juan David\\TiendaVirtual\\node_modules\\react-router' ]
+44 silly reify mark retired [
+44 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\node_modules\\react-router-dom'
+44 silly reify ]
+45 silly reify moves {
+45 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\node_modules\\react-router': 'C:\\Users\\Juan David\\TiendaVirtual\\node_modules\\.react-router-KT0sH8zl',
+45 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\node_modules\\react-router-dom': 'C:\\Users\\Juan David\\TiendaVirtual\\node_modules\\.react-router-dom-BUVuAQ8e'
+45 silly reify }
+46 silly audit bulk request {
+46 silly audit   bcrypt: [ '6.0.0' ],
+46 silly audit   csstype: [ '3.2.3' ],
+46 silly audit   goober: [ '2.1.18' ],
+46 silly audit   'node-addon-api': [ '8.5.0' ],
+46 silly audit   'node-gyp-build': [ '4.8.4' ],
+46 silly audit   react: [ '19.2.1' ],
+46 silly audit   'react-dom': [ '19.2.1' ],
+46 silly audit   'react-hot-toast': [ '2.6.0' ],
+46 silly audit   scheduler: [ '0.27.0' ],
+46 silly audit   'react-router-dom': [ '7.11.0' ],
+46 silly audit   'react-router': [ '7.11.0' ],
+46 silly audit   cookie: [ '1.1.1' ],
+46 silly audit   'set-cookie-parser': [ '2.7.2' ]
+46 silly audit }
+47 http cache react-router-dom@https://registry.npmjs.org/react-router-dom/-/react-router-dom-7.11.0.tgz 1ms (cache hit)
+48 http cache react-router@https://registry.npmjs.org/react-router/-/react-router-7.11.0.tgz 0ms (cache hit)
+49 silly tarball no local data for react-router-dom@https://registry.npmjs.org/react-router-dom/-/react-router-dom-7.11.0.tgz. Extracting by manifest.
+50 silly tarball no local data for react-router@https://registry.npmjs.org/react-router/-/react-router-7.11.0.tgz. Extracting by manifest.
+51 http fetch GET 200 https://registry.npmjs.org/react-router-dom/-/react-router-dom-7.11.0.tgz 96ms (cache miss)
+52 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 174ms
+53 silly audit report {}
+54 http fetch GET 200 https://registry.npmjs.org/react-router/-/react-router-7.11.0.tgz 508ms (cache miss)
+55 silly CHANGE node_modules/react-router-dom
+56 silly CHANGE node_modules/react-router
+57 verbose cwd C:\Users\Juan David\TiendaVirtual
+58 verbose os Windows_NT 10.0.26200
+59 verbose node v24.11.1
+60 verbose npm  v11.6.2
+61 notice
+61 notice New [33mminor[39m version of npm available! [33m11.6.2[39m -> [34m11.7.0[39m
+61 notice Changelog: [34mhttps://github.com/npm/cli/releases/tag/v11.7.0[39m
+61 notice To update run: [4mnpm install -g npm@11.7.0[24m
+61 notice  { force: true, Symbol(proc-log.meta): true }
+62 verbose exit 0
+63 info ok
