@@ -1,0 +1,13 @@
+# node
+node_modules/
+backend/node_modules/
+
+# cache local
+%USERPROFILE%/AppData/Local/npm-cache/
+
+# logs
+npm-debug.log
+yarn-error.log
+
+# entorno
+.env
