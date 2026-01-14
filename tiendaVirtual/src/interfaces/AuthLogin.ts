@@ -4,5 +4,5 @@ import type { IResponseBackend } from './ResponseLogin';
 
 
 export interface IAuthLogin{
-login (credenciales:Credenciales): Promise<IResponseBackend>;
+login (credenciales:Credenciales): Promise<IResponseBackend<LoginResponse>>;
 }

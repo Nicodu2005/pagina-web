@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import {useState } from "react";
-
+import {FiShoppingCart } from "react-icons/fi";
 import { FiMenu, FiX } from "react-icons/fi";
 import { useContext } from "react";
 import { AuthContext } from "../interfaces/ContextAuth";
@@ -34,6 +34,9 @@ function Menu({palabra,setPalabra} : filterProp) {
           </li>
           <li className="font-bold text-base  md:text-2xl hover:text-gray-300">
             <Link to="/productos">Productos</Link>
+          </li>
+          <li className="font-bold text-base  md:text-2xl hover:text-gray-300">
+            <Link to="/"><FiShoppingCart className="text-xl" /></Link>
           </li>
           {!isLogged && (
             <>
@@ -80,6 +83,9 @@ function Menu({palabra,setPalabra} : filterProp) {
           </li>
           <li className="font-bold text-base  md:text-2xl hover:text-gray-300">
             <Link to="/productos">Productos</Link>
+          </li>
+          <li className="font-bold text-base  md:text-2xl hover:text-gray-300">
+            <Link to="/"><FiShoppingCart className="text-xl" /></Link>
           </li>
           {!isLogged && (
             <>
