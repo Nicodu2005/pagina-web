@@ -1,5 +1,5 @@
 import React from "react";
-import icono from "../img/cuenta.png";
+
 
 interface formLogin {
   user: string;
@@ -23,7 +23,7 @@ const FormLogin: React.FC<formLogin> = ({
       <div className="bg-white p-8 rounded-xl shadow-lg w-full max-w-3xl flex flex-col md:flex-row grap-6">
         <div className=" flex flex-col items-center text-center md:w-1/2">
           <img
-            src={icono}
+            src="/img/cuenta.png"
             alt="icono user"
             className="w-28 h-28  md:w-40 md:h-40 object-contain "
           />

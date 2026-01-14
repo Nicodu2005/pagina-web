@@ -1,8 +1,5 @@
-export interface IResponseBackend{
+export interface IResponseBackend<T>{
     ok:boolean;
-    data:{
-        message:string,
-        token?:string
-    },
-    
+    data?:T;
+    message?: string;
 }
