@@ -1,9 +1,10 @@
 import type { IAuthRegister } from "../interfaces/AuthRegister";
 import type { RegisterData } from "../interfaces/IRegister";
 import type { IResponseBackend } from "../interfaces/ResponseLogin";
+import type {ResponseRegister} from "../interfaces/AuthRegister"
 
 export class Registerservice implements IAuthRegister {
-  async register(registerData: RegisterData): Promise<IResponseBackend> {
+  async register(registerData: RegisterData): Promise<IResponseBackend<ResponseRegister>> {
     try {
       const response = await fetch("http://localhost:3000/User/registro", {
         method: "POST",
@@ -18,7 +19,7 @@ export class Registerservice implements IAuthRegister {
       return { ok: response.ok, data };
     } catch (error) {
       console.log("Error de servidor", error);
-      return { ok: false, data: { message: "Error de server" } };
+      return { ok: false, data: {ok:false , message: "Error de server" } };
     }
   }
 }

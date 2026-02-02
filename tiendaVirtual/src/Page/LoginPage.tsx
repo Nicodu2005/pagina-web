@@ -50,13 +50,13 @@ function Login() {
       console.log(result.ok);
 
       if (result.ok) {
-        toast.success(result.data.message);
+        toast.success(result.data?.message);
         localStorage.savetoken(result.data.token!);
-        console.log(result.data.token)
+        console.log(result.data?.token)
         setIsLogged(true);
         navigate("/productos");
       } else {
-        toast.error(result.data.message);
+        toast.error(result.data?.message);
       }
 
       setformLogin((prev) => ({ ...prev, loading: false }));

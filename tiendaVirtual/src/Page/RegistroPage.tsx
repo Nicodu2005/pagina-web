@@ -63,10 +63,10 @@ function Registro() {
     console.log(response.ok);
 
     if (response.ok) {
-      toast.success(response.data.message);
+      toast.success(response.data?.message);
       navigate("/Login")
     } else {
-      toast.error(response.data.message);
+      toast.error(response.data?.message);
     }
     setformdata((prev) => ({ ...prev, loading: false }));
   }catch(error){

@@ -1,9 +1,9 @@
 import type { Credenciales } from "../interfaces/ILogin";
-import type { IAuthLogin } from "../interfaces/AuthLogin";
+import type { IAuthLogin, ResponseLogin } from "../interfaces/AuthLogin";
 import type { IResponseBackend } from "../interfaces/ResponseLogin";
 
 export class Loginservice implements IAuthLogin {
-  async login(credenciales: Credenciales): Promise<IResponseBackend> {
+  async login(credenciales: Credenciales): Promise<IResponseBackend<ResponseLogin>> {
     try {
       const response = await fetch("http://localhost:3000/User/iniciarsesion", {
         method: "POST",
@@ -20,7 +20,7 @@ export class Loginservice implements IAuthLogin {
       console.log("Error de servidor", e);
       return {
         ok: false,
-        data: {
+        data: { ok:false ,
           message: "Error de servidor",
         },
       };

@@ -1,5 +1,5 @@
-import type { IProductIdMethod } from "./../interfaces/IProductIDMethod";
-import type { IResponseBackend } from "./../interfaces/ResponseLogin";
+import type { IProductIdMethod } from "../interfaces/IProductIDMethod";
+import type { IResponseBackend } from "../interfaces/ResponseLogin";
 import type { IProductData } from "../interfaces/Product";
 
 export class ProductIdService implements IProductIdMethod {
