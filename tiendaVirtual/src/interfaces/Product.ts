@@ -1,5 +1,5 @@
 export interface IProductData{
-    id_producto: bigint,
+    id_producto: number,
     nombre:string,
     descripcion:string,
     precio:number,
