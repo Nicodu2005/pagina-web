@@ -30,6 +30,37 @@ function CartProvider({ children }: CartProviderProps) {
      setItems(copiaCarrito);
 };
 
+const aumentarCantidad :cartContextType ["aumentarCantidad"]  = (id_producto: number) =>{
+
+  const copiaCarrito = items.map((item) => (item.product.id_producto === id_producto)
+        ? {...item, quantity: item.quantity + 1} : item);
+
+        setItems(copiaCarrito);
+}
+const disminuirCantidad :cartContextType ["disminuirCantidad"]  = (id_producto: number) =>{
+
+  const copiaCarrito = items.map((item) => (item.product.id_producto === id_producto)
+        ? {...item, quantity: item.quantity - 1} : item).filter((item)=>item.quantity>0);
+        
+        setItems(copiaCarrito);
+}
+const vaciarCarrito : cartContextType["vaciarCarrito"] = () =>{
+    setItems([]);
+}
+
+const calcularItems =()=>{
+const totalitem = items.reduce((counter,item)=>counter +  item.quantity,0)
+    return totalitem
+}
+
+const totalItems:cartContextType["totalItems"]=calcularItems();
+  
+  const calcularprecio = ()=>{
+    return items.reduce((acc,item)=>{ return acc +Number(item.product.precio) * item.quantity},0
+  )}
+
+  const totalPrice : cartContextType["totalPrice"]= calcularprecio();
+
   return (
     <cartContext.Provider
       value={{
