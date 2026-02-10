@@ -13,7 +13,6 @@ export interface cartContextType{
     aumentarCantidad:(id_producto:number) => void;
     disminuirCantidad:(id_producto:number) => void;
     vaciarCarrito:()=>void;
-
     totalItems:number;
     totalPrice:number;
 }
