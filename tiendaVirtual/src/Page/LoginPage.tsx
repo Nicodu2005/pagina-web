@@ -9,7 +9,7 @@ import type { Credenciales } from "../interfaces/ILogin";
 import Loginservice from "../service/Loginservice";
 import localStorage from "../AUTH/Auth"
 import { useContext } from "react";
-import { AuthContext } from "../interfaces/ContextAuth";
+import { AuthContext } from "../context/ContextAuth";
 
 const service = new Loginservice();
 function Login() {

@@ -1,0 +1,600 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\Juan David\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.10.0
+2 info using node@v24.11.1
+3 silly config load:file:C:\Users\Juan David\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Juan David\TiendaVirtual\tiendavirtual\.npmrc
+5 silly config load:file:C:\Users\Juan David\.npmrc
+6 silly config load:file:C:\Users\Juan David\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm uninstall tailwindcss
+8 verbose argv "uninstall" "tailwindcss"
+9 verbose logfile logs-max:10 dir:C:\Users\Juan David\TiendaVirtual\tiendavirtual\%USERPROFILE%\AppData\Local\npm-cache\_logs\2026-02-14T15_37_39_120Z-
+10 verbose logfile C:\Users\Juan David\TiendaVirtual\tiendavirtual\%USERPROFILE%\AppData\Local\npm-cache\_logs\2026-02-14T15_37_39_120Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+13 silly logfile done cleaning log files
+14 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+15 silly idealTree buildDeps
+16 silly reify mark retired [
+16 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\arg'
+16 silly reify ]
+17 silly reify mark retired [
+17 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\any-promise'
+17 silly reify ]
+18 silly reify mark retired [
+18 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\anymatch'
+18 silly reify ]
+19 silly reify mark retired [
+19 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\binary-extensions'
+19 silly reify ]
+20 silly reify mark retired [
+20 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\braces'
+20 silly reify ]
+21 silly reify mark retired [
+21 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\chokidar'
+21 silly reify ]
+22 silly reify mark retired [
+22 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\camelcase-css'
+22 silly reify ]
+23 silly reify mark retired [
+23 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\commander'
+23 silly reify ]
+24 silly reify mark retired [
+24 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\cssesc',
+24 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\cssesc',
+24 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\cssesc.cmd',
+24 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\cssesc.ps1'
+24 silly reify ]
+25 silly reify mark retired [
+25 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\didyoumean'
+25 silly reify ]
+26 silly reify mark retired [
+26 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\dlv'
+26 silly reify ]
+27 silly reify mark retired [
+27 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\fast-glob'
+27 silly reify ]
+28 silly reify mark retired [
+28 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\fastq'
+28 silly reify ]
+29 silly reify mark retired [
+29 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\fill-range'
+29 silly reify ]
+30 silly reify mark retired [
+30 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\function-bind'
+30 silly reify ]
+31 silly reify mark retired [
+31 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\hasown'
+31 silly reify ]
+32 silly reify mark retired [
+32 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\is-binary-path'
+32 silly reify ]
+33 silly reify mark retired [
+33 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\is-core-module'
+33 silly reify ]
+34 silly reify mark retired [
+34 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\is-number'
+34 silly reify ]
+35 silly reify mark retired [
+35 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\lilconfig'
+35 silly reify ]
+36 silly reify mark retired [
+36 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\lines-and-columns'
+36 silly reify ]
+37 silly reify mark retired [
+37 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\merge2'
+37 silly reify ]
+38 silly reify mark retired [
+38 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\micromatch'
+38 silly reify ]
+39 silly reify mark retired [
+39 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\normalize-path'
+39 silly reify ]
+40 silly reify mark retired [
+40 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\object-hash'
+40 silly reify ]
+41 silly reify mark retired [
+41 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\object-assign'
+41 silly reify ]
+42 silly reify mark retired [
+42 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\mz'
+42 silly reify ]
+43 silly reify mark retired [
+43 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\picomatch'
+43 silly reify ]
+44 silly reify mark retired [
+44 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\pify'
+44 silly reify ]
+45 silly reify mark retired [
+45 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\pirates'
+45 silly reify ]
+46 silly reify mark retired [
+46 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\path-parse'
+46 silly reify ]
+47 silly reify mark retired [
+47 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\postcss-import'
+47 silly reify ]
+48 silly reify mark retired [
+48 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\postcss-js'
+48 silly reify ]
+49 silly reify mark retired [
+49 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\postcss-nested'
+49 silly reify ]
+50 silly reify mark retired [
+50 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\postcss-load-config'
+50 silly reify ]
+51 silly reify mark retired [
+51 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\postcss-selector-parser'
+51 silly reify ]
+52 silly reify mark retired [
+52 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\queue-microtask'
+52 silly reify ]
+53 silly reify mark retired [
+53 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\read-cache'
+53 silly reify ]
+54 silly reify mark retired [
+54 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\resolve',
+54 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\resolve',
+54 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\resolve.cmd',
+54 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\resolve.ps1'
+54 silly reify ]
+55 silly reify mark retired [
+55 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\readdirp'
+55 silly reify ]
+56 silly reify mark retired [
+56 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\reusify'
+56 silly reify ]
+57 silly reify mark retired [
+57 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\run-parallel'
+57 silly reify ]
+58 silly reify mark retired [
+58 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\sucrase',
+58 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\sucrase',
+58 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\sucrase.cmd',
+58 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\sucrase.ps1',
+58 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\sucrase-node',
+58 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\sucrase-node.cmd',
+58 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\sucrase-node.ps1'
+58 silly reify ]
+59 silly reify mark retired [
+59 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\tailwindcss',
+59 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\tailwind',
+59 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\tailwind.cmd',
+59 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\tailwind.ps1',
+59 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\tailwindcss',
+59 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\tailwindcss.cmd',
+59 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\tailwindcss.ps1'
+59 silly reify ]
+60 silly reify mark retired [
+60 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\supports-preserve-symlinks-flag'
+60 silly reify ]
+61 silly reify mark retired [
+61 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\to-regex-range'
+61 silly reify ]
+62 silly reify mark retired [
+62 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\thenify'
+62 silly reify ]
+63 silly reify mark retired [
+63 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\thenify-all'
+63 silly reify ]
+64 silly reify mark retired [
+64 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\ts-interface-checker'
+64 silly reify ]
+65 silly reify mark retired [
+65 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\util-deprecate'
+65 silly reify ]
+66 silly reify mark retired [
+66 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\@alloc\\quick-lru'
+66 silly reify ]
+67 silly reify mark retired [
+67 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\@nodelib\\fs.scandir'
+67 silly reify ]
+68 silly reify mark retired [
+68 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\@nodelib\\fs.stat'
+68 silly reify ]
+69 silly reify mark retired [
+69 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\@nodelib\\fs.walk'
+69 silly reify ]
+70 silly reify moves {
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\arg': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.arg-IWSXoUat',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\any-promise': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.any-promise-DbGGGNTv',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\anymatch': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.anymatch-HwaOSB2I',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\binary-extensions': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.binary-extensions-YlqlxN8i',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\braces': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.braces-4PUmXbT7',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\chokidar': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.chokidar-JcDDI0Mf',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\camelcase-css': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.camelcase-css-sCW3udtD',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\commander': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.commander-iGCfHzrw',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\cssesc': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.cssesc-wP142eE1',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\cssesc': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\.cssesc-YAzpnUd4',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\cssesc.cmd': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\.cssesc.cmd-gXbRAH6S',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\cssesc.ps1': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\.cssesc.ps1-mMk52GDv',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\didyoumean': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.didyoumean-VVxNvOeI',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\dlv': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.dlv-G95HpNb0',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\fast-glob': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.fast-glob-NRObaRSx',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\fastq': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.fastq-KYrtIZWw',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\fill-range': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.fill-range-yB4pfQF7',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\function-bind': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.function-bind-IzYXgyGE',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\hasown': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.hasown-Y6horZTh',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\is-binary-path': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.is-binary-path-8S9YUVAX',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\is-core-module': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.is-core-module-gel7CJRx',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\is-number': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.is-number-92dzpbDu',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\lilconfig': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.lilconfig-Ink12qeT',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\lines-and-columns': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.lines-and-columns-90NRkYXN',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\merge2': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.merge2-PO9Hv9Sv',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\micromatch': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.micromatch-NDpJhYPf',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\normalize-path': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.normalize-path-a57STTze',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\object-hash': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.object-hash-9Jf46M1O',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\object-assign': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.object-assign-Eh3yljgR',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\mz': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.mz-NT2H5Y1a',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\picomatch': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.picomatch-DniwUbX2',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\pify': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.pify-1HMKNKAE',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\pirates': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.pirates-hP42qPgs',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\path-parse': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.path-parse-wkd8xJwa',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\postcss-import': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.postcss-import-tIvbjpJO',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\postcss-js': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.postcss-js-XVV4eHYN',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\postcss-nested': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.postcss-nested-orjVydgV',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\postcss-load-config': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.postcss-load-config-aztAPt5d',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\postcss-selector-parser': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.postcss-selector-parser-cGkc1L2V',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\queue-microtask': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.queue-microtask-2ARq3v6l',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\read-cache': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.read-cache-ZFRXjpL6',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\resolve': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.resolve-A8NxVUtm',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\resolve': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\.resolve-9PmUnDzk',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\resolve.cmd': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\.resolve.cmd-CkjY7eJv',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\resolve.ps1': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\.resolve.ps1-Vv7P7SHc',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\readdirp': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.readdirp-BYzdI2h4',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\reusify': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.reusify-vK3ydX0H',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\run-parallel': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.run-parallel-wE3XRX9Q',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\sucrase': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.sucrase-nJyU3iOT',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\sucrase': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\.sucrase-Wk6lIwgH',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\sucrase.cmd': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\.sucrase.cmd-HEHezMGZ',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\sucrase.ps1': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\.sucrase.ps1-ekWeaK1h',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\sucrase-node': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\.sucrase-node-8xKdRlsi',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\sucrase-node.cmd': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\.sucrase-node.cmd-3ENworD0',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\sucrase-node.ps1': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\.sucrase-node.ps1-ZG0zGVWA',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\tailwindcss': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.tailwindcss-WzJGjCiM',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\tailwind': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\.tailwind-2ZooL8an',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\tailwind.cmd': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\.tailwind.cmd-JhEy3Ol1',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\tailwind.ps1': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\.tailwind.ps1-VTotq2xt',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\tailwindcss': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\.tailwindcss-xN2z9A0n',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\tailwindcss.cmd': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\.tailwindcss.cmd-ay4MVnFq',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\tailwindcss.ps1': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.bin\\.tailwindcss.ps1-fNjQFIob',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\supports-preserve-symlinks-flag': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.supports-preserve-symlinks-flag-F2Yur62m',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\to-regex-range': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.to-regex-range-Jtkw4Ij8',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\thenify': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.thenify-d0d5IqZp',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\thenify-all': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.thenify-all-MhxTWvBQ',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\ts-interface-checker': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.ts-interface-checker-s279taBP',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\util-deprecate': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\.util-deprecate-pzTKCyt5',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\@alloc\\quick-lru': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\@alloc\\.quick-lru-gzMYQ7ml',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\@nodelib\\fs.scandir': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\@nodelib\\.fs.scandir-zBKXgtk9',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\@nodelib\\fs.stat': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\@nodelib\\.fs.stat-3nh3M9XK',
+70 silly reify   'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\@nodelib\\fs.walk': 'C:\\Users\\Juan David\\TiendaVirtual\\tiendavirtual\\node_modules\\@nodelib\\.fs.walk-1KXjATwn'
+70 silly reify }
+71 silly audit bulk request {
+71 silly audit   '@babel/code-frame': [ '7.29.0' ],
+71 silly audit   '@babel/compat-data': [ '7.29.0' ],
+71 silly audit   '@babel/core': [ '7.29.0' ],
+71 silly audit   '@babel/generator': [ '7.29.1' ],
+71 silly audit   '@babel/helper-compilation-targets': [ '7.28.6' ],
+71 silly audit   '@babel/helper-globals': [ '7.28.0' ],
+71 silly audit   '@babel/helper-module-imports': [ '7.28.6' ],
+71 silly audit   '@babel/helper-module-transforms': [ '7.28.6' ],
+71 silly audit   '@babel/helper-plugin-utils': [ '7.28.6' ],
+71 silly audit   '@babel/helper-string-parser': [ '7.27.1' ],
+71 silly audit   '@babel/helper-validator-identifier': [ '7.28.5' ],
+71 silly audit   '@babel/helper-validator-option': [ '7.27.1' ],
+71 silly audit   '@babel/helpers': [ '7.28.6' ],
+71 silly audit   '@babel/parser': [ '7.29.0' ],
+71 silly audit   '@babel/plugin-transform-react-jsx-self': [ '7.27.1' ],
+71 silly audit   '@babel/plugin-transform-react-jsx-source': [ '7.27.1' ],
+71 silly audit   '@babel/template': [ '7.28.6' ],
+71 silly audit   '@babel/traverse': [ '7.29.0' ],
+71 silly audit   '@babel/types': [ '7.29.0' ],
+71 silly audit   '@esbuild/aix-ppc64': [ '0.27.3' ],
+71 silly audit   '@esbuild/android-arm': [ '0.27.3' ],
+71 silly audit   '@esbuild/android-arm64': [ '0.27.3' ],
+71 silly audit   '@esbuild/android-x64': [ '0.27.3' ],
+71 silly audit   '@esbuild/darwin-arm64': [ '0.27.3' ],
+71 silly audit   '@esbuild/darwin-x64': [ '0.27.3' ],
+71 silly audit   '@esbuild/freebsd-arm64': [ '0.27.3' ],
+71 silly audit   '@esbuild/freebsd-x64': [ '0.27.3' ],
+71 silly audit   '@esbuild/linux-arm': [ '0.27.3' ],
+71 silly audit   '@esbuild/linux-arm64': [ '0.27.3' ],
+71 silly audit   '@esbuild/linux-ia32': [ '0.27.3' ],
+71 silly audit   '@esbuild/linux-loong64': [ '0.27.3' ],
+71 silly audit   '@esbuild/linux-mips64el': [ '0.27.3' ],
+71 silly audit   '@esbuild/linux-ppc64': [ '0.27.3' ],
+71 silly audit   '@esbuild/linux-riscv64': [ '0.27.3' ],
+71 silly audit   '@esbuild/linux-s390x': [ '0.27.3' ],
+71 silly audit   '@esbuild/linux-x64': [ '0.27.3' ],
+71 silly audit   '@esbuild/netbsd-arm64': [ '0.27.3' ],
+71 silly audit   '@esbuild/netbsd-x64': [ '0.27.3' ],
+71 silly audit   '@esbuild/openbsd-arm64': [ '0.27.3' ],
+71 silly audit   '@esbuild/openbsd-x64': [ '0.27.3' ],
+71 silly audit   '@esbuild/openharmony-arm64': [ '0.27.3' ],
+71 silly audit   '@esbuild/sunos-x64': [ '0.27.3' ],
+71 silly audit   '@esbuild/win32-arm64': [ '0.27.3' ],
+71 silly audit   '@esbuild/win32-ia32': [ '0.27.3' ],
+71 silly audit   '@esbuild/win32-x64': [ '0.27.3' ],
+71 silly audit   '@eslint-community/eslint-utils': [ '4.9.1' ],
+71 silly audit   'eslint-visitor-keys': [ '3.4.3', '4.2.1' ],
+71 silly audit   '@eslint-community/regexpp': [ '4.12.2' ],
+71 silly audit   '@eslint/config-array': [ '0.21.1' ],
+71 silly audit   '@eslint/config-helpers': [ '0.4.2' ],
+71 silly audit   '@eslint/core': [ '0.17.0' ],
+71 silly audit   '@eslint/eslintrc': [ '3.3.3' ],
+71 silly audit   globals: [ '14.0.0', '16.5.0' ],
+71 silly audit   '@eslint/js': [ '9.39.2' ],
+71 silly audit   '@eslint/object-schema': [ '2.1.7' ],
+71 silly audit   '@eslint/plugin-kit': [ '0.4.1' ],
+71 silly audit   '@humanfs/core': [ '0.19.1' ],
+71 silly audit   '@humanfs/node': [ '0.16.7' ],
+71 silly audit   '@humanwhocodes/module-importer': [ '1.0.1' ],
+71 silly audit   '@humanwhocodes/retry': [ '0.4.3' ],
+71 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+71 silly audit   '@jridgewell/remapping': [ '2.3.5' ],
+71 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+71 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+71 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+71 silly audit   '@rolldown/pluginutils': [ '1.0.0-rc.3' ],
+71 silly audit   '@rollup/rollup-android-arm-eabi': [ '4.57.1' ],
+71 silly audit   '@rollup/rollup-android-arm64': [ '4.57.1' ],
+71 silly audit   '@rollup/rollup-darwin-arm64': [ '4.57.1' ],
+71 silly audit   '@rollup/rollup-darwin-x64': [ '4.57.1' ],
+71 silly audit   '@rollup/rollup-freebsd-arm64': [ '4.57.1' ],
+71 silly audit   '@rollup/rollup-freebsd-x64': [ '4.57.1' ],
+71 silly audit   '@rollup/rollup-linux-arm-gnueabihf': [ '4.57.1' ],
+71 silly audit   '@rollup/rollup-linux-arm-musleabihf': [ '4.57.1' ],
+71 silly audit   '@rollup/rollup-linux-arm64-gnu': [ '4.57.1' ],
+71 silly audit   '@rollup/rollup-linux-arm64-musl': [ '4.57.1' ],
+71 silly audit   '@rollup/rollup-linux-loong64-gnu': [ '4.57.1' ],
+71 silly audit   '@rollup/rollup-linux-loong64-musl': [ '4.57.1' ],
+71 silly audit   '@rollup/rollup-linux-ppc64-gnu': [ '4.57.1' ],
+71 silly audit   '@rollup/rollup-linux-ppc64-musl': [ '4.57.1' ],
+71 silly audit   '@rollup/rollup-linux-riscv64-gnu': [ '4.57.1' ],
+71 silly audit   '@rollup/rollup-linux-riscv64-musl': [ '4.57.1' ],
+71 silly audit   '@rollup/rollup-linux-s390x-gnu': [ '4.57.1' ],
+71 silly audit   '@rollup/rollup-linux-x64-gnu': [ '4.57.1' ],
+71 silly audit   '@rollup/rollup-linux-x64-musl': [ '4.57.1' ],
+71 silly audit   '@rollup/rollup-openbsd-x64': [ '4.57.1' ],
+71 silly audit   '@rollup/rollup-openharmony-arm64': [ '4.57.1' ],
+71 silly audit   '@rollup/rollup-win32-arm64-msvc': [ '4.57.1' ],
+71 silly audit   '@rollup/rollup-win32-ia32-msvc': [ '4.57.1' ],
+71 silly audit   '@rollup/rollup-win32-x64-gnu': [ '4.57.1' ],
+71 silly audit   '@rollup/rollup-win32-x64-msvc': [ '4.57.1' ],
+71 silly audit   '@tailwindcss/node': [ '4.1.18' ],
+71 silly audit   tailwindcss: [ '4.1.18' ],
+71 silly audit   '@tailwindcss/oxide': [ '4.1.18' ],
+71 silly audit   '@tailwindcss/oxide-android-arm64': [ '4.1.18' ],
+71 silly audit   '@tailwindcss/oxide-darwin-arm64': [ '4.1.18' ],
+71 silly audit   '@tailwindcss/oxide-darwin-x64': [ '4.1.18' ],
+71 silly audit   '@tailwindcss/oxide-freebsd-x64': [ '4.1.18' ],
+71 silly audit   '@tailwindcss/oxide-linux-arm-gnueabihf': [ '4.1.18' ],
+71 silly audit   '@tailwindcss/oxide-linux-arm64-gnu': [ '4.1.18' ],
+71 silly audit   '@tailwindcss/oxide-linux-arm64-musl': [ '4.1.18' ],
+71 silly audit   '@tailwindcss/oxide-linux-x64-gnu': [ '4.1.18' ],
+71 silly audit   '@tailwindcss/oxide-linux-x64-musl': [ '4.1.18' ],
+71 silly audit   '@tailwindcss/oxide-wasm32-wasi': [ '4.1.18' ],
+71 silly audit   '@tailwindcss/oxide-win32-arm64-msvc': [ '4.1.18' ],
+71 silly audit   '@tailwindcss/oxide-win32-x64-msvc': [ '4.1.18' ],
+71 silly audit   '@tailwindcss/vite': [ '4.1.18' ],
+71 silly audit   '@types/babel__core': [ '7.20.5' ],
+71 silly audit   '@types/babel__generator': [ '7.27.0' ],
+71 silly audit   '@types/babel__template': [ '7.4.4' ],
+71 silly audit   '@types/babel__traverse': [ '7.28.0' ],
+71 silly audit   '@types/estree': [ '1.0.8' ],
+71 silly audit   '@types/json-schema': [ '7.0.15' ],
+71 silly audit   '@types/node': [ '24.10.13' ],
+71 silly audit   '@types/react': [ '19.2.14' ],
+71 silly audit   '@types/react-dom': [ '19.2.3' ],
+71 silly audit   '@typescript-eslint/eslint-plugin': [ '8.55.0' ],
+71 silly audit   ignore: [ '7.0.5', '5.3.2' ],
+71 silly audit   '@typescript-eslint/parser': [ '8.55.0' ],
+71 silly audit   '@typescript-eslint/project-service': [ '8.55.0' ],
+71 silly audit   '@typescript-eslint/scope-manager': [ '8.55.0' ],
+71 silly audit   '@typescript-eslint/tsconfig-utils': [ '8.55.0' ],
+71 silly audit   '@typescript-eslint/type-utils': [ '8.55.0' ],
+71 silly audit   '@typescript-eslint/types': [ '8.55.0' ],
+71 silly audit   '@typescript-eslint/typescript-estree': [ '8.55.0' ],
+71 silly audit   'brace-expansion': [ '2.0.2', '1.1.12' ],
+71 silly audit   minimatch: [ '9.0.5', '3.1.2' ],
+71 silly audit   semver: [ '7.7.4', '6.3.1' ],
+71 silly audit   '@typescript-eslint/utils': [ '8.55.0' ],
+71 silly audit   '@typescript-eslint/visitor-keys': [ '8.55.0' ],
+71 silly audit   '@vitejs/plugin-react': [ '5.1.4' ],
+71 silly audit   acorn: [ '8.15.0' ],
+71 silly audit   'acorn-jsx': [ '5.3.2' ],
+71 silly audit   ajv: [ '6.12.6' ],
+71 silly audit   'ansi-styles': [ '4.3.0' ],
+71 silly audit   argparse: [ '2.0.1' ],
+71 silly audit   autoprefixer: [ '10.4.24' ],
+71 silly audit   'balanced-match': [ '1.0.2' ],
+71 silly audit   'baseline-browser-mapping': [ '2.9.19' ],
+71 silly audit   browserslist: [ '4.28.1' ],
+71 silly audit   callsites: [ '3.1.0' ],
+71 silly audit   'caniuse-lite': [ '1.0.30001769' ],
+71 silly audit   chalk: [ '4.1.2' ],
+71 silly audit   'glob-parent': [ '6.0.2' ],
+71 silly audit   clsx: [ '2.1.1' ],
+71 silly audit   'color-convert': [ '2.0.1' ],
+71 silly audit   'color-name': [ '1.1.4' ],
+71 silly audit   'concat-map': [ '0.0.1' ],
+71 silly audit   'convert-source-map': [ '2.0.0' ],
+71 silly audit   cookie: [ '1.1.1' ],
+71 silly audit   'cross-spawn': [ '7.0.6' ],
+71 silly audit   csstype: [ '3.2.3' ],
+71 silly audit   debug: [ '4.4.3' ],
+71 silly audit   'deep-is': [ '0.1.4' ],
+71 silly audit   'detect-libc': [ '2.1.2' ],
+71 silly audit   'electron-to-chromium': [ '1.5.286' ],
+71 silly audit   'enhanced-resolve': [ '5.19.0' ],
+71 silly audit   esbuild: [ '0.27.3' ],
+71 silly audit   escalade: [ '3.2.0' ],
+71 silly audit   'escape-string-regexp': [ '4.0.0' ],
+71 silly audit   eslint: [ '9.39.2' ],
+71 silly audit   'eslint-plugin-react-hooks': [ '7.0.1' ],
+71 silly audit   'eslint-plugin-react-refresh': [ '0.4.26' ],
+71 silly audit   'eslint-scope': [ '8.4.0' ],
+71 silly audit   espree: [ '10.4.0' ],
+71 silly audit   esquery: [ '1.7.0' ],
+71 silly audit   esrecurse: [ '4.3.0' ],
+71 silly audit   estraverse: [ '5.3.0' ],
+71 silly audit   esutils: [ '2.0.3' ],
+71 silly audit   'fast-deep-equal': [ '3.1.3' ],
+71 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+71 silly audit   'fast-levenshtein': [ '2.0.6' ],
+71 silly audit   'file-entry-cache': [ '8.0.0' ],
+71 silly audit   'find-up': [ '5.0.0' ],
+71 silly audit   'flat-cache': [ '4.0.1' ],
+71 silly audit   flatted: [ '3.3.3' ],
+71 silly audit   'fraction.js': [ '5.3.4' ],
+71 silly audit   fsevents: [ '2.3.3' ],
+71 silly audit   gensync: [ '1.0.0-beta.2' ],
+71 silly audit   'graceful-fs': [ '4.2.11' ],
+71 silly audit   'has-flag': [ '4.0.0' ],
+71 silly audit   'hermes-estree': [ '0.25.1' ],
+71 silly audit   'hermes-parser': [ '0.25.1' ],
+71 silly audit   'import-fresh': [ '3.3.1' ],
+71 silly audit   imurmurhash: [ '0.1.4' ],
+71 silly audit   'is-extglob': [ '2.1.1' ],
+71 silly audit   'is-glob': [ '4.0.3' ],
+71 silly audit   isexe: [ '2.0.0' ],
+71 silly audit   jiti: [ '2.6.1' ],
+71 silly audit   'js-tokens': [ '4.0.0' ],
+71 silly audit   'js-yaml': [ '4.1.1' ],
+71 silly audit   jsesc: [ '3.1.0' ],
+71 silly audit   'json-buffer': [ '3.0.1' ],
+71 silly audit   'json-schema-traverse': [ '0.4.1' ],
+71 silly audit   'json-stable-stringify-without-jsonify': [ '1.0.1' ],
+71 silly audit   json5: [ '2.2.3' ],
+71 silly audit   keyv: [ '4.5.4' ],
+71 silly audit   levn: [ '0.4.1' ],
+71 silly audit   lightningcss: [ '1.30.2' ],
+71 silly audit   'lightningcss-android-arm64': [ '1.30.2' ],
+71 silly audit   'lightningcss-darwin-arm64': [ '1.30.2' ],
+71 silly audit   'lightningcss-darwin-x64': [ '1.30.2' ],
+71 silly audit   'lightningcss-freebsd-x64': [ '1.30.2' ],
+71 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.30.2' ],
+71 silly audit   'lightningcss-linux-arm64-gnu': [ '1.30.2' ],
+71 silly audit   'lightningcss-linux-arm64-musl': [ '1.30.2' ],
+71 silly audit   'lightningcss-linux-x64-gnu': [ '1.30.2' ],
+71 silly audit   'lightningcss-linux-x64-musl': [ '1.30.2' ],
+71 silly audit   'lightningcss-win32-arm64-msvc': [ '1.30.2' ],
+71 silly audit   'lightningcss-win32-x64-msvc': [ '1.30.2' ],
+71 silly audit   'locate-path': [ '6.0.0' ],
+71 silly audit   'lodash.merge': [ '4.6.2' ],
+71 silly audit   'lru-cache': [ '5.1.1' ],
+71 silly audit   'magic-string': [ '0.30.21' ],
+71 silly audit   ms: [ '2.1.3' ],
+71 silly audit   nanoid: [ '3.3.11' ],
+71 silly audit   'natural-compare': [ '1.4.0' ],
+71 silly audit   'node-releases': [ '2.0.27' ],
+71 silly audit   optionator: [ '0.9.4' ],
+71 silly audit   'p-limit': [ '3.1.0' ],
+71 silly audit   'p-locate': [ '5.0.0' ],
+71 silly audit   'parent-module': [ '1.0.1' ],
+71 silly audit   'path-exists': [ '4.0.0' ],
+71 silly audit   'path-key': [ '3.1.1' ],
+71 silly audit   picocolors: [ '1.1.1' ],
+71 silly audit   picomatch: [ '4.0.3' ],
+71 silly audit   postcss: [ '8.5.6' ],
+71 silly audit   'postcss-value-parser': [ '4.2.0' ],
+71 silly audit   'prelude-ls': [ '1.2.1' ],
+71 silly audit   punycode: [ '2.3.1' ],
+71 silly audit   react: [ '19.2.4' ],
+71 silly audit   'react-dom': [ '19.2.4' ],
+71 silly audit   'react-icons': [ '5.5.0' ],
+71 silly audit   'react-refresh': [ '0.18.0' ],
+71 silly audit   'react-router': [ '7.13.0' ],
+71 silly audit   'react-router-dom': [ '7.13.0' ],
+71 silly audit   'react-toastify': [ '11.0.5' ],
+71 silly audit   'resolve-from': [ '4.0.0' ],
+71 silly audit   rollup: [ '4.57.1' ],
+71 silly audit   scheduler: [ '0.27.0' ],
+71 silly audit   'set-cookie-parser': [ '2.7.2' ],
+71 silly audit   'shebang-command': [ '2.0.0' ],
+71 silly audit   'shebang-regex': [ '3.0.0' ],
+71 silly audit   'source-map-js': [ '1.2.1' ],
+71 silly audit   'strip-json-comments': [ '3.1.1' ],
+71 silly audit   'supports-color': [ '7.2.0' ],
+71 silly audit   tapable: [ '2.3.0' ],
+71 silly audit   tinyglobby: [ '0.2.15' ],
+71 silly audit   fdir: [ '6.5.0' ],
+71 silly audit   'ts-api-utils': [ '2.4.0' ],
+71 silly audit   'type-check': [ '0.4.0' ],
+71 silly audit   typescript: [ '5.9.3' ],
+71 silly audit   'typescript-eslint': [ '8.55.0' ],
+71 silly audit   'undici-types': [ '7.16.0' ],
+71 silly audit   'update-browserslist-db': [ '1.2.3' ],
+71 silly audit   'uri-js': [ '4.4.1' ],
+71 silly audit   vite: [ '7.3.1' ],
+71 silly audit   which: [ '2.0.2' ],
+71 silly audit   'word-wrap': [ '1.2.5' ],
+71 silly audit   yallist: [ '3.1.1' ],
+71 silly audit   'yocto-queue': [ '0.1.0' ],
+71 silly audit   zod: [ '4.3.6' ],
+71 silly audit   'zod-validation-error': [ '4.0.2' ]
+71 silly audit }
+72 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 788ms
+73 silly audit report {}
+74 silly REMOVE node_modules/@nodelib/fs.walk
+75 silly REMOVE node_modules/@nodelib/fs.stat
+76 silly REMOVE node_modules/@nodelib/fs.scandir
+77 silly REMOVE node_modules/@alloc/quick-lru
+78 silly REMOVE node_modules/util-deprecate
+79 silly REMOVE node_modules/ts-interface-checker
+80 silly REMOVE node_modules/thenify-all
+81 silly REMOVE node_modules/thenify
+82 silly REMOVE node_modules/to-regex-range
+83 silly REMOVE node_modules/supports-preserve-symlinks-flag
+84 silly REMOVE node_modules/tailwindcss
+85 silly REMOVE node_modules/tailwindcss/node_modules/jiti
+86 silly REMOVE node_modules/sucrase
+87 silly REMOVE node_modules/run-parallel
+88 silly REMOVE node_modules/reusify
+89 silly REMOVE node_modules/readdirp
+90 silly REMOVE node_modules/resolve
+91 silly REMOVE node_modules/read-cache
+92 silly REMOVE node_modules/queue-microtask
+93 silly REMOVE node_modules/postcss-selector-parser
+94 silly REMOVE node_modules/postcss-load-config
+95 silly REMOVE node_modules/postcss-nested
+96 silly REMOVE node_modules/postcss-js
+97 silly REMOVE node_modules/postcss-import
+98 silly REMOVE node_modules/path-parse
+99 silly REMOVE node_modules/pirates
+100 silly REMOVE node_modules/pify
+101 silly REMOVE node_modules/picomatch
+102 silly REMOVE node_modules/mz
+103 silly REMOVE node_modules/object-assign
+104 silly REMOVE node_modules/object-hash
+105 silly REMOVE node_modules/normalize-path
+106 silly REMOVE node_modules/micromatch
+107 silly REMOVE node_modules/merge2
+108 silly REMOVE node_modules/lines-and-columns
+109 silly REMOVE node_modules/lilconfig
+110 silly REMOVE node_modules/is-number
+111 silly REMOVE node_modules/is-core-module
+112 silly REMOVE node_modules/is-binary-path
+113 silly REMOVE node_modules/hasown
+114 silly REMOVE node_modules/function-bind
+115 silly REMOVE node_modules/fill-range
+116 silly REMOVE node_modules/fastq
+117 silly REMOVE node_modules/fast-glob
+118 silly REMOVE node_modules/fast-glob/node_modules/glob-parent
+119 silly REMOVE node_modules/dlv
+120 silly REMOVE node_modules/didyoumean
+121 silly REMOVE node_modules/cssesc
+122 silly REMOVE node_modules/commander
+123 silly REMOVE node_modules/camelcase-css
+124 silly REMOVE node_modules/chokidar
+125 silly REMOVE node_modules/chokidar/node_modules/glob-parent
+126 silly REMOVE node_modules/braces
+127 silly REMOVE node_modules/binary-extensions
+128 silly REMOVE node_modules/anymatch
+129 silly REMOVE node_modules/any-promise
+130 silly REMOVE node_modules/arg
+131 verbose cwd C:\Users\Juan David\TiendaVirtual\tiendavirtual
+132 verbose os Windows_NT 10.0.26200
+133 verbose node v24.11.1
+134 verbose npm  v11.10.0
+135 verbose exit 0
+136 info ok

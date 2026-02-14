@@ -1,7 +1,7 @@
 import type { CartItems, cartContextType } from "../interfaces/cart";
-import type { CartProviderProps } from "../interfaces/ContexrCart";
+import type { CartProviderProps } from "../interfaces/IContextCart";
 import { useState } from "react";
-import { cartContext } from "../interfaces/ContexrCart";
+import { cartContext } from "../context/ContexrCart";
 import type { IProductData } from "../interfaces/Product";
 
 

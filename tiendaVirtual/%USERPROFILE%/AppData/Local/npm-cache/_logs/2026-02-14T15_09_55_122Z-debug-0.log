@@ -1,0 +1,57 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\Juan David\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.10.0
+2 info using node@v24.11.1
+3 silly config load:file:C:\Users\Juan David\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Juan David\.npmrc
+5 silly config load:file:C:\Users\Juan David\AppData\Roaming\npm\etc\npmrc
+6 verbose title npm install npm@11.10.0
+7 verbose argv "install" "--global" "npm@11.10.0"
+8 verbose logfile logs-max:10 dir:C:\Users\Juan David\TiendaVirtual\tiendavirtual\%USERPROFILE%\AppData\Local\npm-cache\_logs\2026-02-14T15_09_55_122Z-
+9 verbose logfile C:\Users\Juan David\TiendaVirtual\tiendavirtual\%USERPROFILE%\AppData\Local\npm-cache\_logs\2026-02-14T15_09_55_122Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 silly logfile done cleaning log files
+12 http fetch GET 200 https://registry.npmjs.org/npm 379ms (cache miss)
+13 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+14 silly idealTree buildDeps
+15 silly fetch manifest npm@11.10.0
+16 silly packumentCache full:https://registry.npmjs.org/npm cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/npm 1006ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/npm set size:undefined disposed:false
+19 silly placeDep ROOT npm@11.10.0 OK for:  want: 11.10.0
+20 silly reify mark retired [
+20 silly reify   'C:\\Users\\Juan David\\AppData\\Roaming\\npm\\node_modules\\npm',
+20 silly reify   'C:\\Users\\Juan David\\AppData\\Roaming\\npm\\npm',
+20 silly reify   'C:\\Users\\Juan David\\AppData\\Roaming\\npm\\npm.cmd',
+20 silly reify   'C:\\Users\\Juan David\\AppData\\Roaming\\npm\\npm.ps1',
+20 silly reify   'C:\\Users\\Juan David\\AppData\\Roaming\\npm\\npx',
+20 silly reify   'C:\\Users\\Juan David\\AppData\\Roaming\\npm\\npx.cmd',
+20 silly reify   'C:\\Users\\Juan David\\AppData\\Roaming\\npm\\npx.ps1'
+20 silly reify ]
+21 silly reify moves {
+21 silly reify   'C:\\Users\\Juan David\\AppData\\Roaming\\npm\\node_modules\\npm': 'C:\\Users\\Juan David\\AppData\\Roaming\\npm\\node_modules\\.npm-s9YO86yG',
+21 silly reify   'C:\\Users\\Juan David\\AppData\\Roaming\\npm\\npm': 'C:\\Users\\Juan David\\AppData\\Roaming\\npm\\.npm-lVgEGnzJ',
+21 silly reify   'C:\\Users\\Juan David\\AppData\\Roaming\\npm\\npm.cmd': 'C:\\Users\\Juan David\\AppData\\Roaming\\npm\\.npm.cmd-sgpur4W5',
+21 silly reify   'C:\\Users\\Juan David\\AppData\\Roaming\\npm\\npm.ps1': 'C:\\Users\\Juan David\\AppData\\Roaming\\npm\\.npm.ps1-xYNazog1',
+21 silly reify   'C:\\Users\\Juan David\\AppData\\Roaming\\npm\\npx': 'C:\\Users\\Juan David\\AppData\\Roaming\\npm\\.npx-Tf3Vu1EQ',
+21 silly reify   'C:\\Users\\Juan David\\AppData\\Roaming\\npm\\npx.cmd': 'C:\\Users\\Juan David\\AppData\\Roaming\\npm\\.npx.cmd-WQkqSb5E',
+21 silly reify   'C:\\Users\\Juan David\\AppData\\Roaming\\npm\\npx.ps1': 'C:\\Users\\Juan David\\AppData\\Roaming\\npm\\.npx.ps1-a9A5wRel'
+21 silly reify }
+22 http cache npm@https://registry.npmjs.org/npm/-/npm-11.10.0.tgz 0ms (cache hit)
+23 silly tarball no local data for npm@https://registry.npmjs.org/npm/-/npm-11.10.0.tgz. Extracting by manifest.
+24 http fetch GET 200 https://registry.npmjs.org/npm/-/npm-11.10.0.tgz 2656ms (cache miss)
+25 silly CHANGE node_modules/npm
+26 silly CHANGE node_modules/npm/node_modules/@npmcli/installed-package-contents
+27 silly CHANGE node_modules/npm/node_modules/@npmcli/arborist
+28 silly CHANGE node_modules/npm/node_modules/which
+29 silly CHANGE node_modules/npm/node_modules/qrcode-terminal
+30 silly CHANGE node_modules/npm/node_modules/semver
+31 silly CHANGE node_modules/npm/node_modules/pacote
+32 silly CHANGE node_modules/npm/node_modules/nopt
+33 silly CHANGE node_modules/npm/node_modules/node-gyp
+34 silly CHANGE node_modules/npm/node_modules/cssesc
+35 verbose cwd C:\Users\Juan David\TiendaVirtual\tiendavirtual
+36 verbose os Windows_NT 10.0.26200
+37 verbose node v24.11.1
+38 verbose npm  v11.10.0
+39 verbose exit 0
+40 info ok

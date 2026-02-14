@@ -3,9 +3,9 @@ import { useState } from "react";
 import { FiShoppingCart } from "react-icons/fi";
 import { FiMenu, FiX } from "react-icons/fi";
 import { useContext } from "react";
-import { AuthContext } from "../interfaces/ContextAuth";
+import { AuthContext } from "../context/ContextAuth";
 import type { filterProp } from "../interfaces/filter";
-import { cartContext } from "../interfaces/ContexrCart";
+import { cartContext } from "../context/ContexrCart";
 
 function Menu({ palabra, setPalabra }: filterProp) {
   const [open, setOpen] = useState(false);
