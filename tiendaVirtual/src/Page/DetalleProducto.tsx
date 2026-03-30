@@ -4,6 +4,7 @@ import type { IProductData } from "../interfaces/Product";
 import { ProductIdService } from "../service/ProductIdService";
 import { useParams } from "react-router-dom";
 
+
 function DetalleProducto() {
   const [productdataID, setProductosId] = useState<IProductData | null>(null);
   const id_producto = useParams();

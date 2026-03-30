@@ -7,13 +7,7 @@
 6 silly config load:file:C:\Users\Juan David\AppData\Roaming\npm\etc\npmrc
 7 verbose title npm run dev
 8 verbose argv "run" "dev"
-9 verbose logfile logs-max:10 dir:C:\Users\Juan David\TiendaVirtual\tiendavirtual\%USERPROFILE%\AppData\Local\npm-cache\_logs\2026-02-14T15_10_03_964Z-
-10 verbose logfile C:\Users\Juan David\TiendaVirtual\tiendavirtual\%USERPROFILE%\AppData\Local\npm-cache\_logs\2026-02-14T15_10_03_964Z-debug-0.log
+9 verbose logfile logs-max:10 dir:C:\Users\Juan David\TiendaVirtual\tiendavirtual\%USERPROFILE%\AppData\Local\npm-cache\_logs\2026-02-16T16_32_53_515Z-
+10 verbose logfile C:\Users\Juan David\TiendaVirtual\tiendavirtual\%USERPROFILE%\AppData\Local\npm-cache\_logs\2026-02-16T16_32_53_515Z-debug-0.log
 11 silly logfile start cleaning logs, removing 1 files
 12 silly logfile done cleaning log files
-13 verbose cwd C:\Users\Juan David\TiendaVirtual\tiendavirtual
-14 verbose os Windows_NT 10.0.26200
-15 verbose node v24.11.1
-16 verbose npm  v11.10.0
-17 verbose exit 1
-18 verbose code 1

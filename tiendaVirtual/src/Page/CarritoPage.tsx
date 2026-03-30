@@ -6,7 +6,7 @@ const CarritoPage = () => {
  
   return (
     <div>
-        <Carrito> </Carrito>
+        <Carrito/>
     </div>
   )
 }
