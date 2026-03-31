@@ -1,10 +1,17 @@
 import type { ProductProps } from "../interfaces/Product";
 import { FiPlus, FiMinus, FiShoppingCart } from "react-icons/fi";
-import {useContext} from "react"
+import {useContext, useState} from "react"
 import { cartContext } from "../context/ContexrCart";
 
 function Productid({ product }: ProductProps) {
+  const [quantity,setquantity] = useState(0);
+
+  const aumentarCantidad = ()=> {setquantity(quantity+1)}
+  const disminuirCantidad = ()=> {if (quantity >= 1) {
+    setquantity(quantity - 1);
+  }}
   const carrito = useContext(cartContext)
+  
   return (
     <div className=" flex p-10 mx-auto grid md:grid-cols-2   rounded-2xl transition-shadow duration-300 max-w-6xl w-full">
       <div className="flex w-auto items-center justify-center">
@@ -34,20 +41,20 @@ function Productid({ product }: ProductProps) {
           <span className="text-gray-600  text-base md:text-lg">
             Cantidad:{" "}
           </span>{" "}
-          <button className="text-white bg-blue-500 w-10 h-10 rounded-xl hover:bg-blue-700 flex items-center justify-center" onClick={()=>carrito.disminuirCantidad(product.id_producto)}>
+          <button className="text-white bg-blue-500 w-10 h-10 rounded-xl hover:bg-blue-700 flex items-center justify-center" onClick={disminuirCantidad}>
             <FiMinus />
           </button>
           <input
-           
+            onChange={(e)=>setquantity(Number(e.target.value))}
             type="number"
-            className="w-16 text-center border rounded-lg"
-            value="0"
+            className="w-40 h-10 text-center border font-extrabold rounded-lg md:text-xl font-sans "
+            value={quantity}
           />{" "}
-          <button className="text-white bg-blue-500 w-10 h-10 rounded-xl hover:bg-blue-700  flex items-center justify-center" onClick={()=>carrito.aumentarCantidad(product.id_producto)}>
+          <button className="text-white bg-blue-500 w-10 h-10 rounded-xl hover:bg-blue-700  flex items-center justify-center" onClick={aumentarCantidad}>
             <FiPlus />
           </button>
         </div>
-        <button className=" flex items-center justify-center gap-2 bg-blue-500 border rounded-xl text-white hover:bg-blue-800 w-full h-12 mt-auto " onClick={()=>carrito.agregarcarrito(product)}>
+        <button className=" flex items-center justify-center gap-2 bg-blue-500 border rounded-xl text-white hover:bg-blue-800 w-full h-12 mt-auto " onClick={()=>carrito.agregarcarrito(product,quantity)}>
           Agregar al Carrito <FiShoppingCart className="text-xl" />
         </button>
         <div className="text-sm text-gray-500 space-y-1">

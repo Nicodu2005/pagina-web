@@ -8,7 +8,7 @@ export interface CartItems {
 
 export interface cartContextType{
     items : CartItems[];
-    agregarcarrito:(product: IProductData) => void;
+    agregarcarrito:(product: IProductData, quantity:number) => void;
     eliminarProducto: (id_producto:number) => void;
     aumentarCantidad:(id_producto:number) => void;
     disminuirCantidad:(id_producto:number) => void;

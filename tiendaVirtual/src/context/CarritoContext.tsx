@@ -1,28 +1,36 @@
 import type { CartItems, cartContextType } from "../interfaces/cart";
 import type { CartProviderProps } from "../interfaces/IContextCart";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { cartContext } from "../context/ContexrCart";
 import type { IProductData } from "../interfaces/Product";
+import Carrito from "../components/Carrito";
 
 
 function CartProvider({ children }: CartProviderProps) {
   const [items, setItems] = useState<CartItems[]>([]);
+  useEffect(()=>{
+    
+    localStorage.setItem(carrito : items(JSON.stringify) )
+  })[]
 
-  const agregarcarrito: cartContextType["agregarcarrito"] = (product:IProductData ) => {
+  const agregarcarrito: cartContextType["agregarcarrito"] = (product:IProductData,quantity:number ) => {
+    
+   if (quantity < 1) return;
     const productoencontrado = items.find(
       (item) => item.product.id_producto === product.id_producto,
     );
 
     if (productoencontrado) {
       const nuevoCarrito = items.map((item) => {
-        if (item.product.id_producto === product.id_producto)
-          return { ...item, quantity: item.quantity + 1 };
+        if (item.product.id_producto === product.id_producto  )
+          return { ...item, quantity: item.quantity + quantity };
         return item;
       });
       setItems(nuevoCarrito);
       return;
     }
-    setItems([...items, { product, quantity: 1 }]);
+    setItems([...items, { product, quantity }]);
+
   };
 
   const eliminarProducto :cartContextType ["eliminarProducto"] = (id_producto :number)=>{

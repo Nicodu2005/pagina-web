@@ -8,6 +8,9 @@ import { useParams } from "react-router-dom";
 function DetalleProducto() {
   const [productdataID, setProductosId] = useState<IProductData | null>(null);
   const id_producto = useParams();
+ 
+  
+
 
   useEffect(() => {
     if (!id_producto) return;
