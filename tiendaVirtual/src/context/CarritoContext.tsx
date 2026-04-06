@@ -3,54 +3,56 @@ import type { CartProviderProps } from "../interfaces/IContextCart";
 import { useEffect, useState } from "react";
 import { cartContext } from "../context/ContexrCart";
 import type { IProductData } from "../interfaces/Product";
-import Carrito from "../components/Carrito";
 
 
 function CartProvider({ children }: CartProviderProps) {
   const [items, setItems] = useState<CartItems[]>([]);
-  useEffect(()=>{
-    
-    localStorage.setItem(carrito : items(JSON.stringify) )
-  })[]
+   useEffect(()=>{
+    const itemsguardados = localStorage.getItem("carrito")
+    if (itemsguardados){
+      setItems(JSON.parse(itemsguardados))
+      
+    }
+  },[])
 
+  useEffect(()=>{
+    localStorage.setItem("carrito", JSON.stringify(items));
+  }, [items]);
+ 
   const agregarcarrito: cartContextType["agregarcarrito"] = (product:IProductData,quantity:number ) => {
-    
+  
    if (quantity < 1) return;
     const productoencontrado = items.find(
       (item) => item.product.id_producto === product.id_producto,
     );
 
     if (productoencontrado) {
-      const nuevoCarrito = items.map((item) => {
+      setItems((prev)=>  prev.map((item) => {
         if (item.product.id_producto === product.id_producto  )
           return { ...item, quantity: item.quantity + quantity };
         return item;
-      });
-      setItems(nuevoCarrito);
-      return;
+      }));
+      return
     }
-    setItems([...items, { product, quantity }]);
-
+    setItems((prev) => [...prev, { product, quantity }]);
   };
 
+
   const eliminarProducto :cartContextType ["eliminarProducto"] = (id_producto :number)=>{
-    const copiaCarrito = items.filter((item) => item.product.id_producto !== id_producto) 
-     setItems(copiaCarrito);
+    setItems((prev)=>  prev.filter((item) => item.product.id_producto !== id_producto) )   
 };
 
 const aumentarCantidad :cartContextType ["aumentarCantidad"]  = (id_producto: number) =>{
 
-  const copiaCarrito = items.map((item) => (item.product.id_producto === id_producto)
-        ? {...item, quantity: item.quantity + 1} : item);
-
-        setItems(copiaCarrito);
+  setItems((prev)=>prev.map((item) => (item.product.id_producto === id_producto)
+        ? {...item, quantity: item.quantity + 1} : item));
+      
 }
 const disminuirCantidad :cartContextType ["disminuirCantidad"]  = (id_producto: number) =>{
 
-  const copiaCarrito = items.map((item) => (item.product.id_producto === id_producto)
-        ? {...item, quantity: item.quantity - 1} : item).filter((item)=>item.quantity>0);
+  setItems((prev)=> prev.map((item) => (item.product.id_producto === id_producto)
+        ? {...item, quantity: item.quantity - 1} : item).filter((item)=>item.quantity>0));
         
-        setItems(copiaCarrito);
 }
 const vaciarCarrito : cartContextType["vaciarCarrito"] = () =>{
     setItems([]);
