@@ -7,8 +7,8 @@ class conectationsBD extends connectionBD{
 const connection = mysql.createPool({
     host:"localhost",
     user:"root",
-    password:"root",
-    database:"tiendaVirtual"
+    password:"Root",
+    database:"tiendavirtual"
 });
 
 return connection;

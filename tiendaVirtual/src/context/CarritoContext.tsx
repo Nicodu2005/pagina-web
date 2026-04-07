@@ -6,14 +6,10 @@ import type { IProductData } from "../interfaces/Product";
 
 
 function CartProvider({ children }: CartProviderProps) {
-  const [items, setItems] = useState<CartItems[]>([]);
-   useEffect(()=>{
-    const itemsguardados = localStorage.getItem("carrito")
-    if (itemsguardados){
-      setItems(JSON.parse(itemsguardados))
-      
-    }
-  },[])
+ const [items, setItems] = useState<CartItems[]>(() => {
+  const data = localStorage.getItem("carrito");
+  return data ? JSON.parse(data) : [];
+});
 
   useEffect(()=>{
     localStorage.setItem("carrito", JSON.stringify(items));
