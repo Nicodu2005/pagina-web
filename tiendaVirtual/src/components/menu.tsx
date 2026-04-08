@@ -6,7 +6,7 @@ import { useContext } from "react";
 import { AuthContext } from "../context/ContextAuth";
 import type { filterProp } from "../interfaces/filter";
 import { cartContext } from "../context/ContexrCart";
-import Carrito from "../components/Carrito"
+import Carrito from "../components/Carrito";
 
 function Menu({ palabra, setPalabra }: filterProp) {
   const [open, setOpen] = useState(false);
@@ -93,10 +93,11 @@ function Menu({ palabra, setPalabra }: filterProp) {
               <Link to="/productos">Productos</Link>
             </li>
             <li className="font-sans text-base  md:text-2xl hover:text-gray-300">
-              <Link to="/">
-                <FiShoppingCart className="text-xl" />
-                {totalItems > 0 && <span>{totalItems}</span>}
-              </Link>
+              <FiShoppingCart
+                onClick={() => setOpenCarrito(!openCarrito)}
+                className="text-xl"
+              />
+              {totalItems > 0 && <span>{totalItems}</span>}
             </li>
             {!isLogged && (
               <>
@@ -122,7 +123,25 @@ function Menu({ palabra, setPalabra }: filterProp) {
           </ul>
         </div>
       </nav>
-      {openCarrito && <Carrito></Carrito>}
+
+
+
+
+      <div className={`fixed top-0 left-0 w-full h-full z-50 flex justify-end ${openCarrito ? "" : "pointer-events-none"}`}>
+        <div
+         className={`absolute w-full h-full transition-all duration-300 ${openCarrito ? "bg-black/70 opacity-100" : "opacity-0 pointer-events-none"}`}
+          onClick={() => {
+            setOpenCarrito(false);
+          }}
+        ></div>
+        <div
+          className={ `p-4 transition-all duration-300 h-full w-96 bg-white z-50 ${openCarrito ? "translate-x-0" : "translate-x-full"}`}
+          onClick={(e) => e.stopPropagation()}
+        ><div className="justify-end">
+          <button className=" flex  items-center  justify-center h-12 w-12 bg-blue-500 rounded aling-item-center" onClick={()=>{setOpenCarrito(false)}}> <FiX /></button></div>
+          <Carrito></Carrito>
+        </div>
+      </div>
     </>
   );
 }
