@@ -15,7 +15,7 @@ function productosComponent({ product }: ProductProps) {
         <p className="font-semibold line-clamp-2 text-base">{product.descripcion}</p>
         <div className="flex items-center justify-between mt-2">
           <span className="text-2xl font-bold text-green-600">
-            ${product.precio}
+            ${product.precio.toLocaleString('es-CO')}
           </span>
 
           <span className="text-xs bg-gray-100 px-2 py-1 rounded-full text-gray-500">

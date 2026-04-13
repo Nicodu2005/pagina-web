@@ -39,12 +39,12 @@ function Menu({ palabra, setPalabra }: filterProp) {
             <li className="font-sans text-base  md:text-2xl hover:text-gray-300">
               <Link to="/productos">Productos</Link>
             </li>
-            <li className="font-sans text-base  md:text-2xl hover:text-gray-300">
-              <FiShoppingCart
-                className="text-xl"
+            <li className="font-sans text-base  md:text-2xl hover:text-gray-300 flex  items-center gap-2  relative">
+              Carrito<FiShoppingCart
+                className="text-xl transition hover:scale-110"
                 onClick={() => setOpenCarrito(!openCarrito)}
               />
-              {totalItems > 0 && <span>{totalItems}</span>}
+              {totalItems > 0 && <span>({totalItems})</span>}
             </li>
             {!isLogged && (
               <>
@@ -93,10 +93,11 @@ function Menu({ palabra, setPalabra }: filterProp) {
               <Link to="/productos">Productos</Link>
             </li>
             <li className="font-sans text-base  md:text-2xl hover:text-gray-300">
+              Carrito 
               <FiShoppingCart
                 onClick={() => setOpenCarrito(!openCarrito)}
-                className="text-xl"
-              />
+                className="text-xl transition hover:scale-110"
+              /> 
               {totalItems > 0 && <span>{totalItems}</span>}
             </li>
             {!isLogged && (
@@ -138,7 +139,7 @@ function Menu({ palabra, setPalabra }: filterProp) {
           className={ `p-4 transition-all duration-300 h-full w-96 bg-white z-50 ${openCarrito ? "translate-x-0" : "translate-x-full"}`}
           onClick={(e) => e.stopPropagation()}
         ><div className="justify-end">
-          <button className=" flex  items-center  justify-center h-12 w-12 bg-blue-500 rounded aling-item-center" onClick={()=>{setOpenCarrito(false)}}> <FiX /></button></div>
+          <button className=" hover:bg-blue-700  flex items-center  justify-center h-12 w-12 bg-blue-500 rounded aling-item-center" onClick={()=>{setOpenCarrito(false)}}> <FiX /></button></div>
           <Carrito></Carrito>
         </div>
       </div>

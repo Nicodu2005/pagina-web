@@ -34,7 +34,7 @@ function Productid({ product }: ProductProps) {
         </span>
         <div className="flex items-center justify-center">
           <p className="text-4xl font-extrabold text-green-600">
-            $ {product.precio}
+            $ {product.precio.toLocaleString('es-CO')}
           </p>
         </div>
         <div className="gap-4 flex items-center">
